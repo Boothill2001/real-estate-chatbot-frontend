@@ -1,0 +1,151 @@
+/* === Base Styling === */
+body {
+    background-color: #0f172a; /* Nền dark xanh đậm đẹp */
+    color: #e2e8f0; /* Text sáng nhẹ */
+    font-family: 'Segoe UI', 'Roboto', sans-serif;
+}
+
+/* === Sidebar === */
+.css-1d391kg { /* Sidebar container */
+    background-color: #1e293b;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* === Header title === */
+h1 {
+    color: #38bdf8; /* Light blue header */
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+/* === Chat messages === */
+.stChatMessage {
+    background: #1e293b;
+    border-radius: 15px;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+
+/* === User and Assistant Messages === */
+.stChatMessage.user {
+    background: #334155;
+    color: #f1f5f9;
+}
+
+.stChatMessage.assistant {
+    background: #475569;
+    color: #e0f2fe;
+}
+
+/* === Buttons === */
+.stButton>button {
+    background-color: #3b82f6;
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+    padding: 10px 20px;
+    border: none;
+}
+.stButton>button:hover {
+    background-color: #2563eb;
+}
+
+/* === Input box === */
+.css-1cpxqw2 {
+    background: #1e293b;
+    color: #e2e8f0;
+    border-radius: 10px;
+}
+
+/* === Dividers === */
+hr {
+    border-top: 1px solid #475569;
+}
+
+/* === Suggested Questions === */
+button[data-baseweb="button"] {
+    background-color: #1d4ed8;
+    border-radius: 8px;
+    color: white;
+}
+button[data-baseweb="button"]:hover {
+    background-color: #2563eb;
+}
+/* Chat bubble for user */
+.chat-bubble-user {
+    background-color: #1d4ed8;
+    color: white;
+    padding: 12px;
+    border-radius: 15px;
+    max-width: 80%;
+    word-wrap: break-word;
+    margin-bottom: 10px;
+    font-size: 1rem;
+}
+
+/* Chat bubble for bot */
+.chat-bubble-bot {
+    background-color: #334155;
+    color: #e2e8f0;
+    padding: 12px;
+    border-radius: 15px;
+    max-width: 80%;
+    word-wrap: break-word;
+    margin-bottom: 10px;
+    font-size: 1rem;
+}
+
+/* Center layout */
+.block-container {
+    max-width: 1000px;
+    margin: auto;
+}
+
+/* Resize icons in chat bubble */
+.bi {
+    font-size: 1.2rem;
+    margin-right: 8px;
+}
+
+/* Button styling */
+.stButton>button {
+    background-color: #3b82f6;
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+    padding: 10px 20px;
+    border: none;
+}
+.stButton>button:hover {
+    background-color: #2563eb;
+}
+
+/* Sidebar */
+.css-1d391kg {
+    background-color: #1e293b;
+    padding: 20px;
+    border-radius: 10px;
+}
+.chat-reasoning-trace {
+    background-color: #f5f5f5;
+    padding: 8px 12px;
+    border-radius: 10px;
+    margin-top: 5px;
+    font-size: 0.9rem;
+    color: #555;
+}
+.chat-reasoning-trace {
+    background-color: #f5f5f5;
+    padding: 8px 12px;
+    border-radius: 10px;
+    margin-top: 5px;
+    font-size: 0.9rem;
+    color: #555;
+}
+
+.chat-search-time {
+    color: #777;
+    font-size: 0.85rem;
+    margin-top: 5px;
+}
